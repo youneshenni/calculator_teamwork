@@ -10,4 +10,4 @@ function div(nominateur,quotion){
 
 }
 
-console.log(div(10,0))
+
