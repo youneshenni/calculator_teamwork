@@ -1,34 +1,23 @@
-<<<<<<< HEAD
+const [a, operator, b] = process.argv.slice(2);
 
-function div(nominateur,quotion){
-    try {
-        if(quotion===0){
-            throw error;
-        }
-        return nominateur/quotion
-    } catch (error) {
-        console.log("on peut pas diviser sur 0 !")
-    }
+switch(operator) {
+  case '+':
+    break;
+  case '-':
+    break;
+  case '*':
+    break;
+  case '/':
+    break;
+  case '%':
+    break;
+  case '^':
+    break;
+  case 'sqrt':
+    break;
+  case 'fact':
+    break;
+  default:
+    console.log('Invalid operator');
 
 }
-
-
-
-function add(x, y) {
-  return y + x;
-}
-
-=======
-function fact(nbr){
-    let i;
-    let f = 1;
-    for(i = 1; i <= nbr; i++)  
-    {
-      f = f * i;   
-    }  
-    return f;
-  }
-  function root (nbr){
-    return Math.sqrt(nbr)
-    }
->>>>>>> master
