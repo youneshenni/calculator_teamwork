@@ -6,3 +6,7 @@ function sub (a,b){
     alert(c)
     return c
 }
+function modulo(a,b){
+
+alert('le reste de division est'(a%b))
+}
