@@ -17,4 +17,15 @@ function modulo(a,b){
         console.log("on peut pas diviser sur 0 !")
     }
      
+
+
+function pow(x, n) {
+    return x = Math.pow(x, n)
+
+}
+
+
+function multiAmine(a, b) {
+    return a * b;
+}
 }
