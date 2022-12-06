@@ -3,7 +3,6 @@ function add() {
   const plus = prompt("+,-,*,/");
   const desieme = prompt("ecrit un nombre");
   if (plus === "+") {
-    const resulta = premier + desieme;
-    return resulta;
+    return premier + desieme;
   }
 }
