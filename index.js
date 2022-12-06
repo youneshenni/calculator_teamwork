@@ -3,7 +3,7 @@ function sub (a,b){
 
     let c=a-b
     console.log(c);
-    alert(c)
+    
     return c
 }
 function modulo(a,b){
@@ -12,7 +12,10 @@ function modulo(a,b){
         if(b===0){
             throw error;
         }
-        alert('le reste de division est'(a%b)) 
+        else {
+            return a%b
+        }
+       
     } catch (error) {
         console.log("on peut pas diviser sur 0 !")
     }
