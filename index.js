@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 function div(nominateur,quotion){
     try {
@@ -18,7 +17,6 @@ function add(x, y) {
   return y + x;
 }
 
-=======
 function fact(nbr){
     let i;
     let f = 1;
@@ -31,4 +29,3 @@ function fact(nbr){
   function root (nbr){
     return Math.sqrt(nbr)
     }
->>>>>>> master
