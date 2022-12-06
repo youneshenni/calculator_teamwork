@@ -4,6 +4,6 @@ function add() {
   const desieme = prompt("ecrit un nombre");
   if (plus === "+") {
     const resulta = premier + desieme;
-    alert(resulta);
+    return resulta;
   }
 }
