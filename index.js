@@ -1,3 +1,4 @@
+
 function div(nominateur,quotion){
     try {
         if(quotion===0){
@@ -10,4 +11,9 @@ function div(nominateur,quotion){
 
 }
 
+
+
+function add(x, y) {
+  return y + x;
+}
 
