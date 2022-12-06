@@ -7,4 +7,6 @@ function fact(nbr){
     }  
     return f;
   }
-  console.log(fact(3));
+  function root (nbr){
+    return Math.sqrt(nbr)
+    }
